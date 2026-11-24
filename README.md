@@ -76,3 +76,13 @@ cleanall                       clean everything including node_modules and packa
 ## build everything and run the benchmarks
 $ make cleanall bench
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install globally via awesome-os/pnpm (all platforms)
+pnpm add -g github:awesome-os/ffast
+
+# Run directly (all platforms)
+ffast --help
+```
